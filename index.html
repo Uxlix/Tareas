@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+</head>
+<body>
+    <nav class = "navbar navbar-light bg-light">
+        <div class="container">
+            <a class ="navbar-brand" href="#">Practica Login con JavaScript Vanilla</a>
+            <a class ="navbar-brand" href="./signup.html">Sign Up</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>Sign In</h1>
+                        <form id="formSignIn">
+                            <div class="form-group">
+                                <p>Correo o Usuario</p>
+                                <input type="text" id = "user" placeholder="Correo o Usuario" class="form-control">
+                            </div>
+                            <br>
+                            
+                            <div class="form-group">
+                                <p>Password</p>
+                                <input type="password" id="pass" placeholder="Password" class="form-control">
+                            </div>
+                            <br>
+                            <button type = "submit" class="btn btn-primary btn-block">Sign In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./signin.js"></script>
+</body>
+</html>
